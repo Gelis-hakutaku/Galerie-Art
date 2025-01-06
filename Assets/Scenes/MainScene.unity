@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 631254476}
   - component: {fileID: 631254475}
   - component: {fileID: 631254474}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2401,10 +2401,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3031536677474908612, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.463508
+      value: 14.83
       objectReference: {fileID: 0}
     - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
         type: 3}

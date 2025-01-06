@@ -25,18 +25,20 @@ public class PlayerMovement : MonoBehaviour
 
     public void Update()
     {
-        //ground check
+        /*//ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeigh * 0.5f + 0.2f, whatIsGround);
+        */
 
         Inputs();
         SpeedControl();
 
+        /*
         //handle drag
         if (grounded) 
             rb.drag = groundDrag;
         else
             rb.drag = 0;
-
+        */
     }
 
     public void FixedUpdate()
