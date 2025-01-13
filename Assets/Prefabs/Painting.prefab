@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2515874523101127125}
   - component: {fileID: 3771632738845757261}
   - component: {fileID: 5030337491658077038}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: RawImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 2620666134850494562}
   - component: {fileID: 2401990853392544586}
   - component: {fileID: 4955004747416985659}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2725141742243971892}
-  m_Layer: 0
+  - component: {fileID: 1201411348430996741}
+  m_Layer: 9
   m_Name: Painting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,6 +227,27 @@ Transform:
   - {fileID: 3180370188051015082}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1201411348430996741
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3631241668836358067}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.053354263, y: 2.2822316, z: 1.6055183}
+  m_Center: {x: -0.014857292, y: -0.008535266, z: 0.0021533966}
 --- !u!1 &4224562448908006016
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +260,7 @@ GameObject:
   - component: {fileID: 1986603026434456749}
   - component: {fileID: 5280946816229116633}
   - component: {fileID: 5058258071960102037}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +364,7 @@ GameObject:
   - component: {fileID: 2074442187568443972}
   - component: {fileID: 780408061243461661}
   - component: {fileID: 7309307521614390605}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +499,7 @@ GameObject:
   - component: {fileID: 7102675999048511752}
   - component: {fileID: 7332716062387812579}
   - component: {fileID: 7323362861307351285}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: CanvasDescription
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +601,7 @@ GameObject:
   - component: {fileID: 2024164226390057613}
   - component: {fileID: 7394974590011349924}
   - component: {fileID: 1616558642672046356}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -697,7 +719,7 @@ GameObject:
   - component: {fileID: 3191239182381079786}
   - component: {fileID: 1188522646557595928}
   - component: {fileID: 3153152805643575515}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: TextLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +857,7 @@ GameObject:
   - component: {fileID: 9219113808026639022}
   - component: {fileID: 276040644835560416}
   - component: {fileID: 8903287714439476788}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -962,10 +984,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 343a521eadb909c6ba8ecebfc1e8037b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -5117700066308340382, guid: 343a521eadb909c6ba8ecebfc1e8037b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 343a521eadb909c6ba8ecebfc1e8037b,
         type: 3}
       propertyPath: m_Name
       value: WallLamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 343a521eadb909c6ba8ecebfc1e8037b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1046,42 +1083,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintingFrame
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 572162806a33f4e46bda907aca6e034a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 572162806a33f4e46bda907aca6e034a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2541244902762363544}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 572162806a33f4e46bda907aca6e034a, type: 3}
---- !u!1 &4928665254876333338 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 572162806a33f4e46bda907aca6e034a,
-    type: 3}
-  m_PrefabInstance: {fileID: 5235235822604384331}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &2541244902762363544
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4928665254876333338}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.016, y: 0.016000004, z: 0.016000004}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5705482673582415776 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 572162806a33f4e46bda907aca6e034a,
