@@ -12,14 +12,13 @@ public class PlayerCamera : MonoBehaviour
     private float xRotation;
     private float yRotation;
 
-    // Start is called before the first frame update
+    //lock the cursor and hide it
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         //get mouse input

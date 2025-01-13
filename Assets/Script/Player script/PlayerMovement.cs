@@ -64,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0, rb.velocity.z);
 
+        //clamp speed if the player is too fast
         if (flatVel.magnitude > moveSpeed)
         {
             Vector3 limitVel = flatVel.normalized * moveSpeed;
