@@ -296,6 +296,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -121.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.1
+      objectReference: {fileID: 0}
     - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -422,6 +430,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -212.78955
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Le Cri de Munch est une peinture \xE0 l'huile sur toile cr\xE9\xE9e
+        en 1893. Il repr\xE9sente un homme qui crie, entour\xE9 d'un paysage d\xE9chirant
+        et d'\xE9l\xE9ments symboliques tels que des mains qui se tendent vers lui.
+        Munch a voulu exprimer l'angoisse et la solitude humaine \xE0 travers cette
+        \u0153uvre. Il a \xE9t\xE9 peint pendant sa p\xE9riode symboliste et est
+        consid\xE9r\xE9 comme l'un des chefs-d'\u0153uvre de l'expressionnisme. Il
+        est devenu un symbole de l'angoisse moderne dans l'art, et a \xE9t\xE9 interpr\xE9t\xE9
+        de diff\xE9rentes mani\xE8res, comme un cri de d\xE9sespoir face \xE0 la
+        vie moderne ou un reflet de la solitude de l'individu moderne. Les couleurs
+        utilis\xE9es sont sombres, refl\xE9tant l'humeur d\xE9pressives de l'artiste
+        \xE0 cette \xE9poque. Le cri est surtout un symbole de l'angoisse, de la
+        solitude et de l'incapacit\xE9 \xE0 trouver sa place dans le monde."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -503,6 +527,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 144.20006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -613,6 +661,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -170.74295
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "L'Ange D\xE9chu de Cabanel est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1863. Il repr\xE9sente un ange d\xE9chu, nu, entour\xE9
+        d'un d\xE9cor romantique et dramatique. La peinture est consid\xE9r\xE9e
+        comme l'une des \u0153uvres les plus importantes de Cabanel et est reconnue
+        pour son utilisation innovante de la couleur, de la forme et des motifs pour
+        cr\xE9er une image sensuelle et \xE9rotique. Il est souvent consid\xE9r\xE9
+        comme une repr\xE9sentation de la chute de l'ange et de la perte de l'innocence.
+        Il a \xE9t\xE9 peint pendant une p\xE9riode o\xF9 le romantisme \xE9tait
+        en vogue, et refl\xE8te les th\xE8mes romantiques tels que la nature, l'\xE9motion
+        et le mysticisme. L'Ange D\xE9chu de Cabanel est souvent consid\xE9r\xE9
+        comme un symbole de la condition humaine et de la prise de conscience de
+        la faiblesse et de la vuln\xE9rabilit\xE9."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -626,6 +690,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 144.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
     - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -755,6 +843,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -213.318
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Ronde de Nuit de Rembrandt est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1642. Elle repr\xE9sente une sc\xE8ne de rue nocturne avec
+        des personnages habill\xE9s en costumes de l'\xE9poque, dont un personnage
+        principal qui tient une lanterne. La peinture est consid\xE9r\xE9e comme
+        l'une des \u0153uvres les plus importantes de Rembrandt et est reconnue pour
+        son utilisation innovante de la lumi\xE8re pour cr\xE9er une atmosph\xE8re
+        dramatique et r\xE9aliste. Le tableau est vu comme une repr\xE9sentation
+        de la vie quotidienne de l'\xE9poque et de l'humanit\xE9 commune. Les couleurs
+        utilis\xE9es sont sombres, refl\xE9tant l'ambiance nocturne de la sc\xE8ne.
+        La Ronde de Nuit de Rembrandt est souvent consid\xE9r\xE9e comme un chef-d'\u0153uvre
+        de l'utilisation de la lumi\xE8re dans l'art et est expos\xE9e dans les mus\xE9es
+        \xE0 travers le monde."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -768,6 +872,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 47.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -118.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -863,6 +975,19 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -122.694984
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les M\xE9nines de Vel\xE1zquez est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1656. Elle repr\xE9sente la reine d'Espagne, Marie-Th\xE9r\xE8se,
+        et ses dames d'honneur, avec Vel\xE1zquez lui-m\xEAme peint en train de peindre
+        le tableau dans le coin en bas \xE0 droite. Cette \u0153uvre est consid\xE9r\xE9e
+        comme un des chefs-d'\u0153uvre de la peinture espagnole, et l'une des \u0153uvres
+        les plus importantes de Vel\xE1zquez. Il est reconnu pour son utilisation
+        de la mise en sc\xE8ne, de la lumi\xE8re et de la perspective pour cr\xE9er
+        une image complexe et riche de sens. Il est expos\xE9 au Mus\xE9e du Prado
+        \xE0 Madrid."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -898,6 +1023,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 112.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
     - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -986,6 +1135,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: -132.99667
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Le Baiser de Klimt est une peinture \xE0 l'huile sur toile r\xE9alis\xE9e
+        en 1908. Il repr\xE9sente un couple en train de s'embrasser, entour\xE9 d'un
+        d\xE9cor luxuriant et de motifs ornementaux. La peinture est consid\xE9r\xE9e
+        comme l'une des \u0153uvres les plus importantes de Klimt et est reconnue
+        pour son utilisation innovante de la couleur, de la forme et des motifs pour
+        cr\xE9er une image sensuelle et \xE9rotique. Il est souvent consid\xE9r\xE9
+        comme une repr\xE9sentation de l'amour et de la passion. Il a \xE9t\xE9 peint
+        pendant sa p\xE9riode Art nouveau, o\xF9 il a d\xE9velopp\xE9 un style original,
+        qui m\xE9lange des \xE9l\xE9ments de l'art byzantin, des motifs traditionnels
+        viennois et des influences japonisantes. Le Baiser de Klimt est souvent consid\xE9r\xE9
+        comme un symbole de l'\xE9mancipation des femmes et de la lib\xE9ration sexuelle."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2903,6 +3067,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -138
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.8
+      objectReference: {fileID: 0}
     - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3033,6 +3209,24 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -247.55226
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les N\xE9nuphars de Monet est une s\xE9rie de peintures \xE0 l'huile
+        sur toile cr\xE9\xE9e en 1899. Il repr\xE9sente des n\xE9nuphars flottant
+        sur une \xE9tendue d'eau, avec un ciel nuageux en arri\xE8re-plan. Monet
+        a utilis\xE9 des couleurs vives et des touches de pinceau pour capturer la
+        lumi\xE8re changeante de cette sc\xE8ne. Il a \xE9t\xE9 peint pendant sa
+        p\xE9riode impressionniste et est consid\xE9r\xE9 comme l'un des chefs-d'\u0153uvre
+        de Monet. Il a peint cette s\xE9rie de tableaux en se concentrant sur les
+        n\xE9nuphars qui poussent dans son jardin d'eau \xE0 Giverny. Il a utilis\xE9
+        des couleurs vives pour repr\xE9senter les n\xE9nuphars, en utilisant des
+        touches de pinceau pour cr\xE9er un effet de mouvement et de profondeur.
+        Il a \xE9galement utilis\xE9 des couleurs pour capturer les variations de
+        lumi\xE8re et les reflets de l'eau. Les N\xE9nuphars de Monet sont devenus
+        l'un des symboles les plus connus de l'impressionnisme et de l'art moderne
+        en g\xE9n\xE9ral."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3046,6 +3240,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 144.20006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
     - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3181,6 +3399,23 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -199.5643
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Le D\xE9jeuner des Canotiers de Renoir est une peinture \xE0 l'huile
+        sur toile r\xE9alis\xE9e en 1881. Il repr\xE9sente un groupe de personnes,
+        principalement des femmes, dans un bateau \xE0 rames, en train de d\xE9jeuner.
+        La peinture est consid\xE9r\xE9e comme l'une des \u0153uvres les plus importantes
+        de Renoir et est reconnue pour son utilisation innovante de la couleur, de
+        la forme et des motifs pour cr\xE9er une image joyeuse et ensoleill\xE9e.
+        Il a \xE9t\xE9 peint pendant sa p\xE9riode impressionniste, o\xF9 il a d\xE9velopp\xE9
+        un style original, qui m\xE9lange des \xE9l\xE9ments de l'art traditionnel
+        et des influences modernes. Il a utilis\xE9 des couleurs vives pour repr\xE9senter
+        les personnages et les paysages, cr\xE9ant ainsi un contraste saisissant
+        entre la lumi\xE8re et l'ombre. Le D\xE9jeuner des Canotiers de Renoir est
+        souvent consid\xE9r\xE9 comme un symbole de la vie joyeuse et de l'insouciance
+        de la fin du XIXe si\xE8cle."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3194,6 +3429,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 71.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -129.2
+      objectReference: {fileID: 0}
     - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3293,6 +3536,24 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: -156.04225
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Nuit \xC9toil\xE9e de Van Gogh est une peinture \xE0 l'huile sur
+        toile cr\xE9\xE9e en 1888. Il repr\xE9sente un paysage nocturne avec un ciel
+        \xE9toil\xE9, des arbres et une route. Van Gogh a utilis\xE9 des couleurs
+        vives et des traits de pinceau expressifs pour capturer l'\xE9motion de cette
+        sc\xE8ne. Il a \xE9t\xE9 peint pendant son s\xE9jour \xE0 l'asile Saint-Paul-de-Mausole,
+        \xE0 Saint-R\xE9my-de-Provence. Cette peinture est consid\xE9r\xE9e comme
+        l'un des chefs-d'\u0153uvre de Van Gogh et de l'impressionnisme. Il a \xE9t\xE9
+        r\xE9alis\xE9 en seulement une nuit, lorsque Van Gogh a \xE9t\xE9 inspir\xE9
+        par les \xE9toiles et la tranquillit\xE9 de la nature qui l'entourait. Il
+        a utilis\xE9 des couleurs vives pour repr\xE9senter les \xE9toiles et les
+        arbres, cr\xE9ant ainsi un contraste saisissant entre la lumi\xE8re et l'obscurit\xE9.
+        Cette \u0153uvre est consid\xE9r\xE9e comme l'une des plus c\xE9l\xE8bres
+        de Van Gogh, et est souvent consid\xE9r\xE9e comme un symbole de la lutte
+        de l'artiste pour se connecter \xE0 la nature."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3655,6 +3916,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -209.83315
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Joconde, \xE9galement connue sous le nom de Mona Lisa, est une peinture
+        \xE0 l'huile sur bois r\xE9alis\xE9e par L\xE9onard de Vinci entre 1503 et
+        1506. Elle mesure 30 x 21 cm. Ce tableau est consid\xE9r\xE9 comme l'un des
+        chefs-d'\u0153uvre de la peinture mondiale, et l'une des \u0153uvres les
+        plus c\xE9l\xE8bres de l'histoire de l'art. Il repr\xE9sente une jeune femme
+        souriante, assise devant un paysage en arri\xE8re-plan. La Joconde est c\xE9l\xE8bre
+        pour son sourire \xE9nigmatique et son utilisation innovante de la lumi\xE8re
+        et de l'ombre pour cr\xE9er de la profondeur. Depuis sa cr\xE9ation, il a
+        \xE9t\xE9 expos\xE9 dans de nombreux mus\xE9es \xE0 travers le monde, et
+        il est actuellement expos\xE9 au mus\xE9e du Louvre \xE0 Paris."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3668,6 +3943,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 106.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3762,6 +4061,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -96.22304
       objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les Deux Fridas de Frida Kahlo est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1939. Elle repr\xE9sente deux versions de Frida Kahlo assises
+        c\xF4te \xE0 c\xF4te, main dans la main, chacune v\xEAtue de la tenue traditionnelle
+        mexicaine. Le c\u0153ur de l'une d'elles est ouvert et reli\xE9 par des veines
+        \xE0 celui de l'autre. La peinture est consid\xE9r\xE9e comme l'une des \u0153uvres
+        les plus importantes de Frida Kahlo et refl\xE8te sa propre exp\xE9rience
+        personnelle et ses \xE9motions. Elle est vue comme un symbole de l'autor\xE9flexion
+        et de l'identit\xE9 personnelle. Elle est souvent interpr\xE9t\xE9e comme
+        une repr\xE9sentation de la dualit\xE9 de Frida Kahlo en tant qu'individu
+        et de son identification comme une femme mexicaine. Les couleurs utilis\xE9es
+        sont vives, refl\xE9tant l'\xE9nergie de Frida Kahlo."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3775,6 +4089,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -94.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7944146
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6073759
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 129.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.8
+      objectReference: {fileID: 0}
     - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3933,6 +4275,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: -214.81761
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Naissance de V\xE9nus de Botticelli est une peinture \xE0 l'huile
+        sur toile r\xE9alis\xE9e vers 1485. Il repr\xE9sente la d\xE9esse V\xE9nus
+        sortant de l'eau, entour\xE9e de personnages all\xE9goriques et de d\xE9cors
+        inspir\xE9s de la mythologie antique. La peinture est consid\xE9r\xE9e comme
+        l'une des \u0153uvres les plus importantes de Botticelli et est reconnue
+        pour son utilisation innovante de la forme, de la couleur et des motifs pour
+        cr\xE9er une image sensuelle et \xE9rotique. Il est souvent consid\xE9r\xE9
+        comme une repr\xE9sentation de la beaut\xE9 f\xE9minine et de la sensualit\xE9.
+        Il a \xE9t\xE9 peint pendant la Renaissance italienne, o\xF9 l'art \xE9tait
+        fortement influenc\xE9 par les th\xE8mes de l'Antiquit\xE9 classique. La
+        Naissance de V\xE9nus de Botticelli est souvent consid\xE9r\xE9e comme un
+        symbole de l'\xE9panouissement de la femme et de la lib\xE9ration sexuelle."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

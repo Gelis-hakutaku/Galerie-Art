@@ -6,9 +6,15 @@ public class ShowDescription : MonoBehaviour
 {
     [SerializeField] private Canvas description;
 
+    private bool active;
+
+    private void Start()
+    {
+        active = false;
+    }
     public void ToggleDescription()
     {
-        description.enabled = !description.enabled;
-        Debug.Log("clic");
+        active = !active;
+        description.gameObject.SetActive(active);
     }
 }
