@@ -1015,6 +1015,7 @@ MonoBehaviour:
   painting:
     serializedVersion: 2
     m_Bits: 512
+  range: 100
 --- !u!1001 &492928000
 PrefabInstance:
   m_ObjectHideFlags: 0

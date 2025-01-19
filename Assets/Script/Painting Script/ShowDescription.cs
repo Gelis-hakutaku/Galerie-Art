@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//show or hide the canvas
+
 public class ShowDescription : MonoBehaviour
 {
     [SerializeField] private Canvas description;
