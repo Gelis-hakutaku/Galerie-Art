@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -105,7 +104,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -118,7 +117,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -131,7 +130,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh27298
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -278,6 +277,7 @@ Mesh:
     m_Center: {x: 31.585354, y: 1.9999995, z: 24.256886}
     m_Extent: {x: 22.5, y: 2, z: 22.5}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -288,124 +288,880 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &330585543
-GameObject:
+--- !u!1001 &27305062
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 330585546}
-  - component: {fileID: 330585545}
-  - component: {fileID: 330585544}
-  - component: {fileID: 330585547}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &330585544
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
---- !u!20 &330585545
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &330585546
-Transform:
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -121.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 76.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: 'Le cri
+
+        Edvard Munch
+
+        1893
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 56.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: Le Cri
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: e3b6e78e4bd6e8144bceb0fe5b5c7026, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -166.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -212.78955
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Le Cri de Munch est une peinture \xE0 l'huile sur toile cr\xE9\xE9e
+        en 1893. Il repr\xE9sente un homme qui crie, entour\xE9 d'un paysage d\xE9chirant
+        et d'\xE9l\xE9ments symboliques tels que des mains qui se tendent vers lui.
+        Munch a voulu exprimer l'angoisse et la solitude humaine \xE0 travers cette
+        \u0153uvre. Il a \xE9t\xE9 peint pendant sa p\xE9riode symboliste et est
+        consid\xE9r\xE9 comme l'un des chefs-d'\u0153uvre de l'expressionnisme. Il
+        est devenu un symbole de l'angoisse moderne dans l'art, et a \xE9t\xE9 interpr\xE9t\xE9
+        de diff\xE9rentes mani\xE8res, comme un cri de d\xE9sespoir face \xE0 la
+        vie moderne ou un reflet de la solitude de l'individu moderne. Les couleurs
+        utilis\xE9es sont sombres, refl\xE9tant l'humeur d\xE9pressives de l'artiste
+        \xE0 cette \xE9poque. Le cri est surtout un symbole de l'angoisse, de la
+        solitude et de l'incapacit\xE9 \xE0 trouver sa place dans le monde."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &69260296
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.926757
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761502823207090609, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889019406015516167, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00,
+        type: 3}
+      propertyPath: m_Name
+      value: CeilingLightsHolder
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3a1a5ce6466fe5f4bac1693f0ddf6f00, type: 3}
+--- !u!1001 &162337403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 144.20006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.548
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 82.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.132358
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "L'ange D\xE9chu\nAlexandre Cabanel\n1847"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -6.132744
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -16.16948
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -46.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: L'Ange Dechu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 807b4ca3adfe8124082530694aa2b4ed, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -276.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -170.74295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "L'Ange D\xE9chu de Cabanel est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1863. Il repr\xE9sente un ange d\xE9chu, nu, entour\xE9
+        d'un d\xE9cor romantique et dramatique. La peinture est consid\xE9r\xE9e
+        comme l'une des \u0153uvres les plus importantes de Cabanel et est reconnue
+        pour son utilisation innovante de la couleur, de la forme et des motifs pour
+        cr\xE9er une image sensuelle et \xE9rotique. Il est souvent consid\xE9r\xE9
+        comme une repr\xE9sentation de la chute de l'ange et de la perte de l'innocence.
+        Il a \xE9t\xE9 peint pendant une p\xE9riode o\xF9 le romantisme \xE9tait
+        en vogue, et refl\xE8te les th\xE8mes romantiques tels que la nature, l'\xE9motion
+        et le mysticisme. L'Ange D\xE9chu de Cabanel est souvent consid\xE9r\xE9
+        comme un symbole de la condition humaine et de la prise de conscience de
+        la faiblesse et de la vuln\xE9rabilit\xE9."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &176199739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 144.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.554
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.814
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.242
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.949
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.409
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.829
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 122.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 102.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.983
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: 'La Ronde de Nuit
+
+        Rembrandt
+
+        1642'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 91.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: La Ronde de Nuit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: fda96735d336a014892cec88a4866785, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -266.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -213.318
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Ronde de Nuit de Rembrandt est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1642. Elle repr\xE9sente une sc\xE8ne de rue nocturne avec
+        des personnages habill\xE9s en costumes de l'\xE9poque, dont un personnage
+        principal qui tient une lanterne. La peinture est consid\xE9r\xE9e comme
+        l'une des \u0153uvres les plus importantes de Rembrandt et est reconnue pour
+        son utilisation innovante de la lumi\xE8re pour cr\xE9er une atmosph\xE8re
+        dramatique et r\xE9aliste. Le tableau est vu comme une repr\xE9sentation
+        de la vie quotidienne de l'\xE9poque et de l'humanit\xE9 commune. Les couleurs
+        utilis\xE9es sont sombres, refl\xE9tant l'ambiance nocturne de la sc\xE8ne.
+        La Ronde de Nuit de Rembrandt est souvent consid\xE9r\xE9e comme un chef-d'\u0153uvre
+        de l'utilisation de la lumi\xE8re dans l'art et est expos\xE9e dans les mus\xE9es
+        \xE0 travers le monde."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &307092251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 47.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -118.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 56.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 58.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 42.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les M\xE9nines\nDiego Vel\xE1zquez\n1656\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -37.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: Les Menines
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 4996d856afd959b49a1d7d36d836f676, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -123.740005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -122.694984
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les M\xE9nines de Vel\xE1zquez est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1656. Elle repr\xE9sente la reine d'Espagne, Marie-Th\xE9r\xE8se,
+        et ses dames d'honneur, avec Vel\xE1zquez lui-m\xEAme peint en train de peindre
+        le tableau dans le coin en bas \xE0 droite. Cette \u0153uvre est consid\xE9r\xE9e
+        comme un des chefs-d'\u0153uvre de la peinture espagnole, et l'une des \u0153uvres
+        les plus importantes de Vel\xE1zquez. Il est reconnu pour son utilisation
+        de la mise en sc\xE8ne, de la lumi\xE8re et de la perspective pour cr\xE9er
+        une image complexe et riche de sens. Il est expos\xE9 au Mus\xE9e du Prado
+        \xE0 Madrid."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1 &322043753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7948072876868926428, guid: d09a397c87fa5f34c8c209c23656a3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2641965544089681919}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &330585547
+--- !u!114 &322043757
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
+  m_GameObject: {fileID: 322043753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9154cd7a7eba6714a815037e541ff73a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
+  playerPosition: {fileID: 1465225025}
+  painting:
     serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
+    m_Bits: 512
+--- !u!1001 &492928000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 112.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 66.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.385681
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: 'Le Baiser
+
+        Gustav Klimt
+
+        1908'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: Le Baiser
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: a64978bb42de5c3459009558031df722, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -144.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -132.99667
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Le Baiser de Klimt est une peinture \xE0 l'huile sur toile r\xE9alis\xE9e
+        en 1908. Il repr\xE9sente un couple en train de s'embrasser, entour\xE9 d'un
+        d\xE9cor luxuriant et de motifs ornementaux. La peinture est consid\xE9r\xE9e
+        comme l'une des \u0153uvres les plus importantes de Klimt et est reconnue
+        pour son utilisation innovante de la couleur, de la forme et des motifs pour
+        cr\xE9er une image sensuelle et \xE9rotique. Il est souvent consid\xE9r\xE9
+        comme une repr\xE9sentation de l'amour et de la passion. Il a \xE9t\xE9 peint
+        pendant sa p\xE9riode Art nouveau, o\xF9 il a d\xE9velopp\xE9 un style original,
+        qui m\xE9lange des \xE9l\xE9ments de l'art byzantin, des motifs traditionnels
+        viennois et des influences japonisantes. Le Baiser de Klimt est souvent consid\xE9r\xE9
+        comme un symbole de l'\xE9mancipation des femmes et de la lib\xE9ration sexuelle."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!4 &521337058 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2224308343953864242, guid: d09a397c87fa5f34c8c209c23656a3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2641965544089681919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &631254473
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,7 +1176,7 @@ GameObject:
   - component: {fileID: 631254476}
   - component: {fileID: 631254475}
   - component: {fileID: 631254474}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,9 +1191,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631254473}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 23839680}
@@ -2287,11 +3051,1425 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631254473}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &697985176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -138
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.346
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.774
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.424
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.811
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.789
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 119.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.06819
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les N\xE9nuphars\nClaude Monet\n1899"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 86.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: Les Nenuphars
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 5b364647f34cd1d4a8f28d39ad631b30, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -258.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -247.55226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les N\xE9nuphars de Monet est une s\xE9rie de peintures \xE0 l'huile
+        sur toile cr\xE9\xE9e en 1899. Il repr\xE9sente des n\xE9nuphars flottant
+        sur une \xE9tendue d'eau, avec un ciel nuageux en arri\xE8re-plan. Monet
+        a utilis\xE9 des couleurs vives et des touches de pinceau pour capturer la
+        lumi\xE8re changeante de cette sc\xE8ne. Il a \xE9t\xE9 peint pendant sa
+        p\xE9riode impressionniste et est consid\xE9r\xE9 comme l'un des chefs-d'\u0153uvre
+        de Monet. Il a peint cette s\xE9rie de tableaux en se concentrant sur les
+        n\xE9nuphars qui poussent dans son jardin d'eau \xE0 Giverny. Il a utilis\xE9
+        des couleurs vives pour repr\xE9senter les n\xE9nuphars, en utilisant des
+        touches de pinceau pour cr\xE9er un effet de mouvement et de profondeur.
+        Il a \xE9galement utilis\xE9 des couleurs pour capturer les variations de
+        lumi\xE8re et les reflets de l'eau. Les N\xE9nuphars de Monet sont devenus
+        l'un des symboles les plus connus de l'impressionnisme et de l'art moderne
+        en g\xE9n\xE9ral."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &921732792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 144.20006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.947
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.272
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.718
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.802
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 94.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.869
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Le D\xE9jeuner des Canotiers\nPierre-Auguste Renoir\n1881"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -10.642426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -11.485176
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 84.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: Le dejeuner des Canotiers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: ac0988dc7a749f54a8fed7420aa2b7bd, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -277.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -199.5643
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Le D\xE9jeuner des Canotiers de Renoir est une peinture \xE0 l'huile
+        sur toile r\xE9alis\xE9e en 1881. Il repr\xE9sente un groupe de personnes,
+        principalement des femmes, dans un bateau \xE0 rames, en train de d\xE9jeuner.
+        La peinture est consid\xE9r\xE9e comme l'une des \u0153uvres les plus importantes
+        de Renoir et est reconnue pour son utilisation innovante de la couleur, de
+        la forme et des motifs pour cr\xE9er une image joyeuse et ensoleill\xE9e.
+        Il a \xE9t\xE9 peint pendant sa p\xE9riode impressionniste, o\xF9 il a d\xE9velopp\xE9
+        un style original, qui m\xE9lange des \xE9l\xE9ments de l'art traditionnel
+        et des influences modernes. Il a utilis\xE9 des couleurs vives pour repr\xE9senter
+        les personnages et les paysages, cr\xE9ant ainsi un contraste saisissant
+        entre la lumi\xE8re et l'ombre. Le D\xE9jeuner des Canotiers de Renoir est
+        souvent consid\xE9r\xE9 comme un symbole de la vie joyeuse et de l'insouciance
+        de la fin du XIXe si\xE8cle."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &1058852915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 71.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -129.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 74.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Nuit \xC9toil\xE9e \nVincent Van Gogh\n1888"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -43.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: La Nuit Etoilee
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 2b22f3ebf69befb4b845336e33632297, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -214.22481
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -156.04225
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Nuit \xC9toil\xE9e de Van Gogh est une peinture \xE0 l'huile sur
+        toile cr\xE9\xE9e en 1888. Il repr\xE9sente un paysage nocturne avec un ciel
+        \xE9toil\xE9, des arbres et une route. Van Gogh a utilis\xE9 des couleurs
+        vives et des traits de pinceau expressifs pour capturer l'\xE9motion de cette
+        sc\xE8ne. Il a \xE9t\xE9 peint pendant son s\xE9jour \xE0 l'asile Saint-Paul-de-Mausole,
+        \xE0 Saint-R\xE9my-de-Provence. Cette peinture est consid\xE9r\xE9e comme
+        l'un des chefs-d'\u0153uvre de Van Gogh et de l'impressionnisme. Il a \xE9t\xE9
+        r\xE9alis\xE9 en seulement une nuit, lorsque Van Gogh a \xE9t\xE9 inspir\xE9
+        par les \xE9toiles et la tranquillit\xE9 de la nature qui l'entourait. Il
+        a utilis\xE9 des couleurs vives pour repr\xE9senter les \xE9toiles et les
+        arbres, cr\xE9ant ainsi un contraste saisissant entre la lumi\xE8re et l'obscurit\xE9.
+        Cette \u0153uvre est consid\xE9r\xE9e comme l'une des plus c\xE9l\xE8bres
+        de Van Gogh, et est souvent consid\xE9r\xE9e comme un symbole de la lutte
+        de l'artiste pour se connecter \xE0 la nature."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!4 &1465225025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5506582244397385797, guid: 7f8fc31e188c83d4180b9e946ccca539,
+    type: 3}
+  m_PrefabInstance: {fileID: 1904120339655804039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1483859466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483859469}
+  - component: {fileID: 1483859468}
+  - component: {fileID: 1483859467}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1483859467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483859466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1483859468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483859466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1483859469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483859466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1587189887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1587189890}
+  - component: {fileID: 1587189889}
+  - component: {fileID: 1587189888}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1587189888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587189887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &1587189889
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587189887}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1587189890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587189887}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3007923, y: -0.19737256, z: 0.11155849, w: 0.92634916}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 36.964, y: -21.942, z: 6.319}
+--- !u!4 &1740219523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3434348750959087530, guid: d09a397c87fa5f34c8c209c23656a3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2641965544089681919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1803411293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201411348430996741, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12922192
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201411348430996741, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.517864
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201411348430996741, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 2.2978392
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201411348430996741, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.02682352
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201411348430996741, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.0004657507
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201411348430996741, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.0034861565
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.682
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.538
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 68.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 102.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.636586
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Joconde\nL\xE9onard de Vinci\n1503-1506\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 47.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: La Joconde
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: d7ccde88d36e42044a949dc57dc9d92d, type: 3}
+    - target: {fileID: 5058258071960102037, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -140.99638
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -209.83315
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Joconde, \xE9galement connue sous le nom de Mona Lisa, est une peinture
+        \xE0 l'huile sur bois r\xE9alis\xE9e par L\xE9onard de Vinci entre 1503 et
+        1506. Elle mesure 30 x 21 cm. Ce tableau est consid\xE9r\xE9 comme l'un des
+        chefs-d'\u0153uvre de la peinture mondiale, et l'une des \u0153uvres les
+        plus c\xE9l\xE8bres de l'histoire de l'art. Il repr\xE9sente une jeune femme
+        souriante, assise devant un paysage en arri\xE8re-plan. La Joconde est c\xE9l\xE8bre
+        pour son sourire \xE9nigmatique et son utilisation innovante de la lumi\xE8re
+        et de l'ombre pour cr\xE9er de la profondeur. Depuis sa cr\xE9ation, il a
+        \xE9t\xE9 expos\xE9 dans de nombreux mus\xE9es \xE0 travers le monde, et
+        il est actuellement expos\xE9 au mus\xE9e du Louvre \xE0 Paris."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &2034598412
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3288666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 106.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 46.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: 'Les Deux Fridas
+
+        Frida Kahlo
+
+        1939'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -31.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: Les Deux Fridas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 2639a76942a9d694ca26473336f389f0, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -96.22304
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "Les Deux Fridas de Frida Kahlo est une peinture \xE0 l'huile sur toile
+        r\xE9alis\xE9e en 1939. Elle repr\xE9sente deux versions de Frida Kahlo assises
+        c\xF4te \xE0 c\xF4te, main dans la main, chacune v\xEAtue de la tenue traditionnelle
+        mexicaine. Le c\u0153ur de l'une d'elles est ouvert et reli\xE9 par des veines
+        \xE0 celui de l'autre. La peinture est consid\xE9r\xE9e comme l'une des \u0153uvres
+        les plus importantes de Frida Kahlo et refl\xE8te sa propre exp\xE9rience
+        personnelle et ses \xE9motions. Elle est vue comme un symbole de l'autor\xE9flexion
+        et de l'identit\xE9 personnelle. Elle est souvent interpr\xE9t\xE9e comme
+        une repr\xE9sentation de la dualit\xE9 de Frida Kahlo en tant qu'individu
+        et de son identification comme une femme mexicaine. Les couleurs utilis\xE9es
+        sont vives, refl\xE9tant l'\xE9nergie de Frida Kahlo."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &2069976994
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -94.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7944146
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6073759
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 129.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407034017907791, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 987471329488256283, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.043
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648717984959025334, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164226390057613, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.058
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 192
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515874523101127125, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 102.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9518912
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725141742243971892, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: 'La Naissance de Venus
+
+        Sandro Botticelli
+
+        1484-1486'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -10.032913
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -12.933617
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153152805643575515, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 123.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191239182381079786, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631241668836358067, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Name
+      value: La naissance de Venus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030337491658077038, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 6247ca576336f704ca128a34d690129f, type: 3}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -417.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705482673582415776, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -214.81761
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309307521614390605, guid: 6784e23d2c4033b5d8b26cf9bd11e211,
+        type: 3}
+      propertyPath: m_text
+      value: "La Naissance de V\xE9nus de Botticelli est une peinture \xE0 l'huile
+        sur toile r\xE9alis\xE9e vers 1485. Il repr\xE9sente la d\xE9esse V\xE9nus
+        sortant de l'eau, entour\xE9e de personnages all\xE9goriques et de d\xE9cors
+        inspir\xE9s de la mythologie antique. La peinture est consid\xE9r\xE9e comme
+        l'une des \u0153uvres les plus importantes de Botticelli et est reconnue
+        pour son utilisation innovante de la forme, de la couleur et des motifs pour
+        cr\xE9er une image sensuelle et \xE9rotique. Il est souvent consid\xE9r\xE9
+        comme une repr\xE9sentation de la beaut\xE9 f\xE9minine et de la sensualit\xE9.
+        Il a \xE9t\xE9 peint pendant la Renaissance italienne, o\xF9 l'art \xE9tait
+        fortement influenc\xE9 par les th\xE8mes de l'Antiquit\xE9 classique. La
+        Naissance de V\xE9nus de Botticelli est souvent consid\xE9r\xE9e comme un
+        symbole de l'\xE9panouissement de la femme et de la lib\xE9ration sexuelle."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6784e23d2c4033b5d8b26cf9bd11e211, type: 3}
+--- !u!1001 &1904120339655804039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3423130633979643350, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: cameraPosition
+      value: 
+      objectReference: {fileID: 521337058}
+    - target: {fileID: 3871775202766491864, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_Name
+      value: CameraHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238462487159215808, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 1740219523}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600218107623054685, guid: 7f8fc31e188c83d4180b9e946ccca539,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f8fc31e188c83d4180b9e946ccca539, type: 3}
+--- !u!1001 &2641965544089681919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3031536677474908612, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.6928725
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711301368063178437, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948072876868926428, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7948072876868926428, guid: d09a397c87fa5f34c8c209c23656a3f5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 322043757}
+  m_SourcePrefab: {fileID: 100100000, guid: d09a397c87fa5f34c8c209c23656a3f5, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 631254479}
+  - {fileID: 1587189890}
+  - {fileID: 2641965544089681919}
+  - {fileID: 1904120339655804039}
+  - {fileID: 69260296}
+  - {fileID: 1803411293}
+  - {fileID: 1058852915}
+  - {fileID: 27305062}
+  - {fileID: 697985176}
+  - {fileID: 307092251}
+  - {fileID: 2034598412}
+  - {fileID: 176199739}
+  - {fileID: 492928000}
+  - {fileID: 162337403}
+  - {fileID: 921732792}
+  - {fileID: 2069976994}
+  - {fileID: 1483859469}
